@@ -29,7 +29,7 @@ export default Nabout
 
 export const query = graphql`
   query newAbout {
-    newAbout: datoCmsNewAboutPage {
+    newAbout: datoCmsNewAbout {
       seoMetaTags {
         ...GatsbyDatoCmsSeoMetaTags
       }
