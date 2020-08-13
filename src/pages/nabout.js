@@ -4,7 +4,7 @@ import { HelmetDatoCms } from 'gatsby-source-datocms'
 import Img from 'gatsby-image'
 import Layout from "../components/layout"
 
-const NAbout = ({ data: { newAbout } }) => (
+const Nabout = ({ data: { newAbout } }) => (
   <Layout>
     <article className="sheet">
       <HelmetDatoCms seo={newAbout.seoMetaTags} />
@@ -25,7 +25,7 @@ const NAbout = ({ data: { newAbout } }) => (
   </Layout>
 )
 
-export default NAbout
+export default Nabout
 
 export const query = graphql`
   query newAbout {
